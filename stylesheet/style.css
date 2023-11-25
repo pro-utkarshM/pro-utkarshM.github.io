@@ -20,7 +20,7 @@ button:focus{
 body {
   font-family: "Open Sans", sans-serif;
   font-size: large;
-  color: #000000;
+  color: #272829;
   line-height: 1.7;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main{
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 /*--------------------------------------------------------------
 # Hero Section
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(23, 14, 56, 0.4);
+  background: rgba(255, 255, 255, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -150,11 +150,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #45505b;
 }
 
 #hero p {
-  color: #fff;
+  color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
