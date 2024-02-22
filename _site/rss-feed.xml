@@ -16,8 +16,8 @@
 </description>
 				
 				<pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/welcome-to-lagrange</link>
-				<guid isPermaLink="true">http://localhost:4000/welcome-to-lagrange</guid>
+				<link>http://localhost:3000/welcome-to-lagrange</link>
+				<guid isPermaLink="true">http://localhost:3000/welcome-to-lagrange</guid>
 			</item>
 		
 			<item>
@@ -30,8 +30,8 @@
 </description>
 				
 				<pubDate>Sat, 10 Oct 2015 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/getting-started</link>
-				<guid isPermaLink="true">http://localhost:4000/getting-started</guid>
+				<link>http://localhost:3000/getting-started</link>
+				<guid isPermaLink="true">http://localhost:3000/getting-started</guid>
 			</item>
 		
 			<item>
@@ -44,8 +44,8 @@
 </description>
 				
 				<pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/text-formatting-examples</link>
-				<guid isPermaLink="true">http://localhost:4000/text-formatting-examples</guid>
+				<link>http://localhost:3000/text-formatting-examples</link>
+				<guid isPermaLink="true">http://localhost:3000/text-formatting-examples</guid>
 			</item>
 		
 			<item>
@@ -58,8 +58,8 @@
 </description>
 				
 				<pubDate>Thu, 10 Oct 2013 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/learning-resources</link>
-				<guid isPermaLink="true">http://localhost:4000/learning-resources</guid>
+				<link>http://localhost:3000/learning-resources</link>
+				<guid isPermaLink="true">http://localhost:3000/learning-resources</guid>
 			</item>
 		
 			<item>
@@ -72,8 +72,8 @@
 </description>
 				
 				<pubDate>Thu, 04 Apr 2013 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/about-the-author</link>
-				<guid isPermaLink="true">http://localhost:4000/about-the-author</guid>
+				<link>http://localhost:3000/about-the-author</link>
+				<guid isPermaLink="true">http://localhost:3000/about-the-author</guid>
 			</item>
 		
 	</channel>
