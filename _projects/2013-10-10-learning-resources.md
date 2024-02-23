@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects
 title: "Learning Resources"
 author: "Paul Le"
 categories: journal
