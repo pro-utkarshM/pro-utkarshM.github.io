@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "About the Author"
 author: "Paul Le"
 categories: journal

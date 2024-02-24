@@ -1,25 +1,6 @@
 ---
 layout: default
 ---
-<article>
-  {{ content }}
-</article>
-<h1>
-    <a href="https://www.youtube.com/">{{ page.title-1 }}</a>
-</h1>
-
-{% if page.image %}
-  <a href="https://www.youtube.com/watch?v=xPA0LFzUDiE">  <img src="{{ site.github.url }}/assets/img/div-projects/{{ page.image }}" alt="Image 1"></a>
-
-  {% endif %}
-
-<h1>
-    <a href="{{ site.github.url }}{{ post.url }}">{{ page.title-2 }}</a>
-</h1>
-{% if page.image2 %}
-  <img src="{{ site.github.url }}/assets/img/div-projects/{{ page.image2 }}" alt="Image 2">
-{% endif %}
-
 
 {% for post in paginator.posts %}
   <div class="posts-container">
@@ -37,3 +18,16 @@ layout: default
     </p>
   </div>
 {% endfor %}
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+  {% endif %}
+</div>

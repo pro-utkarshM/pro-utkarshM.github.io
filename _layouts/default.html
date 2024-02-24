@@ -1,6 +1,15 @@
 <!doctype html>
 <html>
   {% include head.html %}
+  
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.data.settings.title }}
+    {% else %}
+      {{ page.title }} | {{ site.data.settings.title }}
+    {% endif %}
+  </title>
+
   <body>
     <div class="container">
       {% include header.html %}
