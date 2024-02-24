@@ -1,5 +1,6 @@
 ---
 layout: projects
+title: Projects
 title-1: Welcome to Graveyard of Hardware!
 title-2: Welcome to Graveyard of Software!
 permalink: /projects

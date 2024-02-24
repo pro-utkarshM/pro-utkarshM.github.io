@@ -21,6 +21,14 @@
 <lastmod>2016-01-01T00:00:00+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/hardware</loc>
+<lastmod>2023-12-10T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/software</loc>
+<lastmod>2023-12-10T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about</loc>
 </url>
 <url>
@@ -34,5 +42,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/writing</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>

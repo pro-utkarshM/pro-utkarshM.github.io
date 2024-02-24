@@ -7,6 +7,34 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Software</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;h1 id=&quot;software-projects&quot;&gt;Software Projects&lt;/h1&gt;
+</description>
+				
+				<pubDate>Sun, 10 Dec 2023 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/software</link>
+				<guid isPermaLink="true">http://localhost:4000/software</guid>
+			</item>
+		
+			<item>
+				<title>Hardware</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;h1 id=&quot;hardware-projects&quot;&gt;Hardware Projects&lt;/h1&gt;
+</description>
+				
+				<pubDate>Sun, 10 Dec 2023 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/hardware</link>
+				<guid isPermaLink="true">http://localhost:4000/hardware</guid>
+			</item>
+		
+			<item>
 				<title>Welcome to Lagrange!</title>
 				
 					<dc:creator>Paul Le</dc:creator>

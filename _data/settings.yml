@@ -10,6 +10,8 @@ menu:
 - {name: 'About',   url: 'about.html'}
 - {name: 'Writing', url: 'writing.html'}
 - {name: 'Projects', url: 'projects.html'}
+# - {name: 'Software Projects', url: 'software.html'}
+# - {name: 'Hardware Projects', url: 'hardware.html'}
 - {name: 'Contact', url: 'contact.html'}
 
 
