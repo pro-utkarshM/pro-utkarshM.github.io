@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-24T17:53:57+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Utkarsh</title><subtitle>an Inventive Engineer</subtitle><author><name>Utkarsh Maurya</name></author><entry><title type="html">Hardware</title><link href="http://localhost:4000/hardware" rel="alternate" type="text/html" title="Hardware" /><published>2023-12-10T00:00:00+05:30</published><updated>2023-12-10T00:00:00+05:30</updated><id>http://localhost:4000/hardware</id><content type="html" xml:base="http://localhost:4000/hardware"><![CDATA[<h1 id="hardware-projects">Hardware Projects</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-24T18:17:37+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Utkarsh</title><subtitle>an Inventive Engineer</subtitle><author><name>Utkarsh Maurya</name></author><entry><title type="html">Hardware</title><link href="http://localhost:4000/hardware" rel="alternate" type="text/html" title="Hardware" /><published>2023-12-10T00:00:00+05:30</published><updated>2023-12-10T00:00:00+05:30</updated><id>http://localhost:4000/hardware</id><content type="html" xml:base="http://localhost:4000/hardware"><![CDATA[<h1 id="hardware-projects">Hardware Projects</h1>
 
 <p>Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through <a href="https://pages.github.com/">Github Pages</a>, or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in <a href="https://lenpaul.github.io/Lagrange/">the demo site</a>. For a guide on how to deploy a Jekyll site using GitHub Pages, please check out <a href="https://paulle.ca/jekyll-tutorials/deploy-jekyll-site-github-pages">this article</a>.</p>
 
@@ -343,34 +343,15 @@ image:
 <h2 id="license">License</h2>
 
 <p>Open sourced under the <a href="https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md">MIT license</a>.</p>]]></content><author><name>Paul Le</name></author><category term="journal" /><category term="documentation" /><category term="sample" /><summary type="html"><![CDATA[Hardware Projects]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/forest.jpg" /><media:content medium="image" url="http://localhost:4000/forest.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Software</title><link href="http://localhost:4000/software" rel="alternate" type="text/html" title="Software" /><published>2023-12-10T00:00:00+05:30</published><updated>2023-12-10T00:00:00+05:30</updated><id>http://localhost:4000/software</id><content type="html" xml:base="http://localhost:4000/software"><![CDATA[<h1 id="software-projects">Software Projects</h1>
+<p>Hello, everyone. I am someone who is neither good at coding nor hardware, but I still enjoy making/breaking stuff to keep myself alive or to level my aldrinaline to see a new sunrise. I may be blabbering about anything if you think I am not because I don’t have reasonable projects, but I don’t want to show off what I could have made, but my procatination hit and I began watching anime/documentary/recap (my friends hate me for it)/podcast or daydreaming.</p>
 
-<p>Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through <a href="https://pages.github.com/">Github Pages</a>, or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in <a href="https://lenpaul.github.io/Lagrange/">the demo site</a>. For a guide on how to deploy a Jekyll site using GitHub Pages, please check out <a href="https://paulle.ca/jekyll-tutorials/deploy-jekyll-site-github-pages">this article</a>.</p>
+<p><img src="/assets/img/div-projects/software.jpg" alt="alt text" title="Peace!" /></p>
 
-<p>If you like my work then please consider supporting me with <a href="https://ko-fi.com/paulle">Ko-fi</a>.</p>
-
-<p><img src="https://user-images.githubusercontent.com/8409329/32631384-17107870-c56e-11e7-932f-deeb7c12e4db.png" alt="alt text" title="Lagrange Demo Image" /></p>
-
-<h2 id="notable-features">Notable features</h2>
+<h2 id="what-am-i-good-at">What am I good at?</h2>
 
 <ul>
-  <li>
-    <p>Compatible with GitHub Pages.</p>
-  </li>
-  <li>
-    <p>Support for Jekyll’s built-in Sass/SCSS preprocessor and data files for making customizing easier.</p>
-  </li>
-  <li>
-    <p><a href="https://www.google.com/analytics/">Google Analytics</a> support.</p>
-  </li>
-  <li>
-    <p>Commenting support powered by <a href="https://disqus.com/">Disqus</a>.</p>
-  </li>
-  <li>
-    <p>Optimized for search engines.</p>
-  </li>
-  <li>
-    <p>LaTeX support through <a href="https://www.mathjax.org/">MathJax</a>.</p>
-  </li>
+  <li>I can program anything, I just need some time to give it a go!.</li>
+  <li>Loves Linux and anything that can be customised</li>
 </ul>
 
 <h2 id="table-of-contents">Table of Contents</h2>
@@ -400,23 +381,6 @@ image:
       <li><a href="#yaml-front-block-matter">YAML Front Block Matter</a></li>
     </ol>
   </li>
-  <li><a href="#features">Features</a>
-    <ol>
-      <li><a href="#design-considerations">Design Considerations</a></li>
-      <li><a href="#disqus">Disqus</a></li>
-      <li><a href="#google-analytics">Google Analytics</a></li>
-      <li><a href="#rss-feeds">RSS Feeds</a></li>
-      <li><a href="#social-media-icons">Social Media Icons</a></li>
-      <li><a href="#mathjax">MathJax</a></li>
-      <li><a href="#syntax-highlighting">Syntax Highlighting</a></li>
-      <li><a href="#markdown">Markdown</a></li>
-    </ol>
-  </li>
-  <li><a href="#everything-else">Everything Else</a></li>
-  <li><a href="#Contributing">Contributing</a></li>
-  <li><a href="#questions">Questions?</a></li>
-  <li><a href="#credits">Credits</a></li>
-  <li><a href="#license">License</a></li>
 </ol>
 
 <h2 id="introduction">Introduction</h2>
@@ -589,104 +553,7 @@ image:
 
 <h2 id="questions">Questions?</h2>
 
-<p>This theme is completely free and open source software. You may use it however you want, as it is distributed under the <a href="http://choosealicense.com/licenses/mit/">MIT License</a>. If you are having any problems, any questions or suggestions, feel free to <a href="https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele">tweet at me</a>, or <a href="https://github.com/lenpaul/lagrange/issues/new">file a GitHub issue</a>.</p>
-
-<h2 id="credits">Credits</h2>
-
-<h3 id="creator">Creator</h3>
-
-<h4 id="paul-le">Paul Le</h4>
-
-<ul>
-  <li>
-    <p><a href="http://lenpaul.com">www.lenpaul.com</a></p>
-  </li>
-  <li>
-    <p><a href="https://twitter.com/paululele">Twitter</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/LeNPaul">GitHub</a></p>
-  </li>
-</ul>
-
-<h3 id="contributors">Contributors</h3>
-
-<ul>
-  <li>
-    <p><a href="https://github.com/nikolalukovic">nikolalukovic</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/gmemstr">gmemstr</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/lynn9388">lynn9388</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/robqiao">robqiao</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/Mauladen">Mauladen</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/dhanus">dhanus</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/mlewand">mlewand</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/Hguimaraes">Hguimaraes</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/ilhamadun">ilhamadun</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/brianclemens">brianclemens</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/leyhline">leyhline</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/aritra24">aritra24</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/DuckSoft">DuckSoft</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/larrylawl">larrylawl</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/borting">borting</a></p>
-  </li>
-</ul>
-
-<h3 id="icons--demo-images">Icons + Demo Images</h3>
-
-<ul>
-  <li>
-    <p><a href="https://deathtothestockphoto.com/">Death to Stock</a></p>
-  </li>
-  <li>
-    <p><a href="http://fontawesome.io/">Font Awesome</a></p>
-  </li>
-</ul>
-
-<h3 id="other">Other</h3>
-
-<ul>
-  <li>
-    <p><a href="https://jekyllrb.com/">Jekyll</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.freecodecamp.org">Free Code Camp</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.khanacademy.org/">Khan Academy</a></p>
-  </li>
-</ul>
-
-<h2 id="license">License</h2>
-
-<p>Open sourced under the <a href="https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md">MIT license</a>.</p>]]></content><author><name>Paul Le</name></author><category term="journal" /><category term="documentation" /><category term="sample" /><summary type="html"><![CDATA[Software Projects]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/forest.jpg" /><media:content medium="image" url="http://localhost:4000/forest.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome to Lagrange!</title><link href="http://localhost:4000/welcome-to-lagrange" rel="alternate" type="text/html" title="Welcome to Lagrange!" /><published>2016-01-01T00:00:00+05:30</published><updated>2016-01-01T00:00:00+05:30</updated><id>http://localhost:4000/welcome-to-lagrange</id><content type="html" xml:base="http://localhost:4000/welcome-to-lagrange"><![CDATA[<p>Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.</p>
+<p>This theme is completely free and open source software. You may use it however you want, as it is distributed under the <a href="http://choosealicense.com/licenses/mit/">MIT License</a>. If you are having any problems, any questions or suggestions, feel free to <a href="https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele">tweet at me</a>, or <a href="https://github.com/lenpaul/lagrange/issues/new">file a GitHub issue</a>.</p>]]></content><author><name>Paul Le</name></author><category term="journal" /><category term="documentation" /><category term="sample" /><summary type="html"><![CDATA[Software Projects Hello, everyone. I am someone who is neither good at coding nor hardware, but I still enjoy making/breaking stuff to keep myself alive or to level my aldrinaline to see a new sunrise. I may be blabbering about anything if you think I am not because I don’t have reasonable projects, but I don’t want to show off what I could have made, but my procatination hit and I began watching anime/documentary/recap (my friends hate me for it)/podcast or daydreaming.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/forest.jpg" /><media:content medium="image" url="http://localhost:4000/forest.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome to Lagrange!</title><link href="http://localhost:4000/welcome-to-lagrange" rel="alternate" type="text/html" title="Welcome to Lagrange!" /><published>2016-01-01T00:00:00+05:30</published><updated>2016-01-01T00:00:00+05:30</updated><id>http://localhost:4000/welcome-to-lagrange</id><content type="html" xml:base="http://localhost:4000/welcome-to-lagrange"><![CDATA[<p>Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.</p>
 
 <h2 id="getting-started">Getting Started</h2>
 
