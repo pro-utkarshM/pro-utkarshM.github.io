@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Hello fellow stalkers!
 permalink: /about
 image: about.png
 
