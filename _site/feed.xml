@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-22T20:58:16+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Utkarsh</title><subtitle>an Inventive Engineer</subtitle><author><name>Utkarsh Maurya</name></author><entry><title type="html">Hardware</title><link href="http://localhost:4000/hardware" rel="alternate" type="text/html" title="Hardware" /><published>2023-12-10T00:00:00+05:30</published><updated>2023-12-10T00:00:00+05:30</updated><id>http://localhost:4000/hardware</id><content type="html" xml:base="http://localhost:4000/hardware"><![CDATA[<h1 id="hardware-projects">Hardware Projects</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-22T21:12:56+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Utkarsh</title><subtitle>an Inventive Engineer</subtitle><author><name>Utkarsh Maurya</name></author><entry><title type="html">Hardware</title><link href="http://localhost:4000/hardware" rel="alternate" type="text/html" title="Hardware" /><published>2023-12-10T00:00:00+05:30</published><updated>2023-12-10T00:00:00+05:30</updated><id>http://localhost:4000/hardware</id><content type="html" xml:base="http://localhost:4000/hardware"><![CDATA[<h1 id="hardware-projects">Hardware Projects</h1>
 
 <p>Here are some of my work, basically I’ll add anything I have made regardless making them in 6th grade.</p>
 
@@ -13,159 +13,90 @@
   <li>Wanted to let you know I made these projects just beacause I liked the idea of making them.</li>
 </ul>
 
-<h2 id="table-of-contents">Table of Contents</h2>
+<h2 id="projects------------------------------------------"><a href="#introduction">Projects                                          </a></h2>
 
 <ol>
-  <li><a href="#introduction">Introduction</a>
-    <ol>
-      <li><a href="#what-is-jekyll">What is Jekyll</a></li>
-      <li><a href="#never-used-jekyll-before">Never Used Jeykll Before?</a></li>
-    </ol>
-  </li>
-  <li><a href="#installation">Installation</a>
-    <ol>
-      <li><a href="#github-pages-installation">GitHub Pages Installation</a></li>
-      <li><a href="#local-installation">Local Installation</a></li>
-      <li><a href="#directory-structure">Directory Structure</a></li>
-      <li><a href="#starting-from-scratch">Starting From Scratch</a></li>
-    </ol>
-  </li>
-  <li><a href="#configuration">Configuration</a>
-    <ol>
-      <li><a href="#sample-posts">Sample Posts</a></li>
-      <li><a href="#site-variables">Site Variables</a></li>
-      <li><a href="#adding-menu-pages">Adding Menu Pages</a></li>
-      <li><a href="#posts">Posts</a></li>
-      <li><a href="#layouts">Layouts</a></li>
-      <li><a href="#yaml-front-block-matter">YAML Front Block Matter</a></li>
-    </ol>
-  </li>
-  <li><a href="#features">Features</a>
-    <ol>
-      <li><a href="#design-considerations">Design Considerations</a></li>
-      <li><a href="#disqus">Disqus</a></li>
-      <li><a href="#google-analytics">Google Analytics</a></li>
-      <li><a href="#rss-feeds">RSS Feeds</a></li>
-      <li><a href="#social-media-icons">Social Media Icons</a></li>
-      <li><a href="#mathjax">MathJax</a></li>
-      <li><a href="#syntax-highlighting">Syntax Highlighting</a></li>
-      <li><a href="#markdown">Markdown</a></li>
-    </ol>
-  </li>
-  <li><a href="#everything-else">Everything Else</a></li>
-  <li><a href="#Contributing">Contributing</a></li>
-  <li><a href="#questions">Questions?</a></li>
-  <li><a href="#credits">Credits</a></li>
-  <li><a href="#license">License</a></li>
+  <li><a href="#drone">Drone                                             </a></li>
+  <li><a href="#reliable-data-trasmission">Reliable data trasmission                         </a></li>
+  <li><a href="#configuration">8 Bit TTL Schematics                              </a></li>
+  <li><a href="#features">Self driving Car                                  </a></li>
+  <li><a href="#everything-else">Chess Bot                                         </a></li>
+  <li><a href="#Contributing">Human following bot                               </a></li>
+  <li><a href="#questions">Speckers                                          </a></li>
+  <li><a href="#credits">Dynamo                                            </a></li>
+  <li><a href="#license">Light Dependent Switch                            </a></li>
+  <li><a href="#license">Solar Project                                     </a></li>
 </ol>
 
 <h2 id="introduction">Introduction</h2>
 
-<p>Lagrange is a Jekyll theme that was built to be 100% compatible with <a href="https://pages.github.com/">GitHub Pages</a>. If you are unfamiliar with GitHub Pages, you can check out <a href="https://help.github.com/categories/github-pages-basics/">their documentation</a> for more information. <a href="http://jmcglone.com/guides/github-pages/">Jonathan McGlone’s guide</a> on creating and hosting a personal site on GitHub is also a good resource.</p>
-
+<p>Here all projects have their summary if you want to know more about these project click (Project link) provided for a lengthier explanation.
+&lt;!–</p>
 <h3 id="what-is-jekyll">What is Jekyll?</h3>
 
 <p>Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the <a href="https://jekyllrb.com/docs/home/">official Jekyll site</a> for their documentation. Codecademy also offers a great course on <a href="https://www.codecademy.com/learn/deploy-a-website">how to deploy a Jekyll site</a> for complete beginners.</p>
 
 <h3 id="never-used-jekyll-before">Never Used Jekyll Before?</h3>
 
-<p>The beauty of hosting your website on GitHub is that you don’t have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the <code class="language-plaintext highlighter-rouge">_posts</code> directory and edit the <code class="language-plaintext highlighter-rouge">_config.yml</code> file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking. This can all be done through the GitHub code editor, which acts like a content management system (CMS).</p>
+<p>The beauty of hosting your website on GitHub is that you don’t have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the <code class="language-plaintext highlighter-rouge">_posts</code> directory and edit the <code class="language-plaintext highlighter-rouge">_config.yml</code> file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking. This can all be done through the GitHub code editor, which acts like a content management system (CMS). –&gt;</p>
 
-<h2 id="installation">Installation</h2>
+<h2 id="drone">Drone</h2>
 
-<h3 id="github-pages-installation">GitHub Pages Installation</h3>
+<h3 id="what-drone">What drone?</h3>
 
 <p>To start using Jekyll right away with GitHub Pages, <a href="https://github.com/LeNPaul/Lagrange/fork">fork the Lagrange repository on GitHub</a>. From there, you can rename your repository to ‘USERNAME.github.io’, where ‘USERNAME’ is your GitHub username, and edit the <code class="language-plaintext highlighter-rouge">settings.yml</code> file in the <code class="language-plaintext highlighter-rouge">_data</code> folder to your liking. Ensure that you have a branch named <code class="language-plaintext highlighter-rouge">gh-pages</code>. Your website should be ready immediately at ‘http://USERNAME.github.io’. Note: if you are hosting several sites under the same GitHub username, then you will have to use <a href="https://help.github.com/articles/user-organization-and-project-pages/">Project Pages instead of User Pages</a> - just change the repository name to something other than ‘http://USERNAME.github.io’.</p>
 
 <p>Head over to the <code class="language-plaintext highlighter-rouge">_posts</code> directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.</p>
 
-<h3 id="local-installation">Local Installation</h3>
+<h3 id="how-many-times-it-crashed">How many times it crashed?</h3>
 
 <p>For a full local installation of Lagrange, <a href="https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip">download your own copy of Lagrange</a> and unzip it into it’s own directory. From there, open up your favorite command line tool, enter <code class="language-plaintext highlighter-rouge">bundle install</code>, and then enter <code class="language-plaintext highlighter-rouge">jekyll serve</code>. Your site should be up and running locally at <a href="http://localhost:4000">http://localhost:4000</a>.</p>
 
-<h3 id="directory-structure">Directory Structure</h3>
+<h3 id="future-plans">Future Plans</h3>
 
-<p>If you are familiar with Jekyll, then the Lagrange directory structure shouldn’t be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the <a href="https://jekyllrb.com/docs/structure/">Jekyll documentation site</a>.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lagrange/
-├── _data                      <span class="c"># Data files</span>
-|  └── settings.yml            <span class="c"># Theme settings and custom text</span>
-├── _includes                  <span class="c"># Theme includes</span>
-├── _layouts                   <span class="c"># Theme layouts (see below for details)</span>
-├── _posts                     <span class="c"># Where all your posts will go</span>
-├── assets                     <span class="c"># Style sheets and images are found here</span>
-|  ├── css                     <span class="c"># Style sheets go here</span>
-|  |  └── main.css             <span class="c"># Main CSS file</span>
-|  |  └── syntax.css           <span class="c"># Style sheet for code syntax highlighting</span>
-|  └── img                     <span class="c"># Images go here</span>
-├── menu                       <span class="c"># Menu pages</span>
-├── _config.yml                <span class="c"># Site build settings</span>
-├── Gemfile                    <span class="c"># Ruby Gemfile for managing Jekyll plugins</span>
-├── index.md                   <span class="c"># Home page</span>
-├── LICENSE.md                 <span class="c"># License for this theme</span>
-├── README.md                  <span class="c"># Includes all of the documentation for this theme</span>
-└── rss-feed.xml               <span class="c"># Generates RSS 2.0 file which Jekyll points to</span>
-</code></pre></div></div>
-
+<p>If you are familiar with Jekyll, then the Lagrange directory structure shouldn’t be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the <a href="https://jekyllrb.com/docs/structure/">Jekyll documentation site</a>.
+<!--
+```bash
+Lagrange/
+├── _data                      # Data files
+|  └── settings.yml            # Theme settings and custom text
+├── _includes                  # Theme includes
+├── _layouts                   # Theme layouts (see below for details)
+├── _posts                     # Where all your posts will go
+├── assets                     # Style sheets and images are found here
+|  ├── css                     # Style sheets go here
+|  |  └── main.css             # Main CSS file
+|  |  └── syntax.css           # Style sheet for code syntax highlighting
+|  └── img                     # Images go here
+├── menu                       # Menu pages
+├── _config.yml                # Site build settings
+├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
+├── index.md                   # Home page
+├── LICENSE.md                 # License for this theme
+├── README.md                  # Includes all of the documentation for this theme
+└── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
+``` -->
+&lt;!–</p>
 <h3 id="starting-from-scratch">Starting From Scratch</h3>
 
-<p>To completely start from scratch, simply delete all the files in the <code class="language-plaintext highlighter-rouge">_posts</code>, <code class="language-plaintext highlighter-rouge">assets/img</code>, and <code class="language-plaintext highlighter-rouge">menu</code> folder, and add your own content. You may also replace the <code class="language-plaintext highlighter-rouge">README.md</code> file with your own README. Everything in the <code class="language-plaintext highlighter-rouge">_data</code> folder and <code class="language-plaintext highlighter-rouge">_config.yml</code> file can be edited to suit your needs. You may also change the <code class="language-plaintext highlighter-rouge">favicon.ico</code> file to your own favicon.</p>
+<p>To completely start from scratch, simply delete all the files in the <code class="language-plaintext highlighter-rouge">_posts</code>, <code class="language-plaintext highlighter-rouge">assets/img</code>, and <code class="language-plaintext highlighter-rouge">menu</code> folder, and add your own content. You may also replace the <code class="language-plaintext highlighter-rouge">README.md</code> file with your own README. Everything in the <code class="language-plaintext highlighter-rouge">_data</code> folder and <code class="language-plaintext highlighter-rouge">_config.yml</code> file can be edited to suit your needs. You may also change the <code class="language-plaintext highlighter-rouge">favicon.ico</code> file to your own favicon. –&gt;</p>
 
-<h2 id="configuration">Configuration</h2>
+<h2 id="reliable-data-trasmission">Reliable-data-trasmission</h2>
 
-<h3 id="sample-posts">Sample Posts</h3>
+<h3 id="why-this-project">Why this project?</h3>
 
 <p>Visit the <a href="https://lenpaul.github.io/Lagrange/">the demo site</a> to find sample posts that show what different types of text formatting look like. You can find these posts in the <code class="language-plaintext highlighter-rouge">_posts</code> folder, which show what the best practices for setting up your own site are.</p>
 
-<h3 id="site-variables">Site Variables</h3>
-
+<h3 id="what-have-i-learned-from-making-this">What have I learned from making this?</h3>
 <p>To change site build settings, edit the <code class="language-plaintext highlighter-rouge">_config.yml</code> file found in the root of your repository, which you can tweak however you like. More information on configuration settings and plugins can be found on <a href="https://jekyllrb.com/docs/configuration/">the Jekyll documentation site</a>. This is also where you will be able to customize the title, description, and the author/owner of your site.</p>
 
 <p>If you are hosting your site on GitHub Pages, then committing a change to the <code class="language-plaintext highlighter-rouge">_config.yml</code> file will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run <code class="language-plaintext highlighter-rouge">jekyll serve</code> again for the changes to take place.</p>
 
 <p>In the <code class="language-plaintext highlighter-rouge">settings.yml</code> file found in the <code class="language-plaintext highlighter-rouge">_data</code> folder, you will be able to customize your site settings, such as setting Disqus comments, Google Analytics, what shows up in your menu, and social media information.</p>
 
-<h3 id="adding-menu-pages">Adding Menu Pages</h3>
+<h3 id="future-changes">Future Changes…</h3>
 
 <p>The menu pages are found in the <code class="language-plaintext highlighter-rouge">menu</code> folder in the root directory, and can be added to your menu in the <code class="language-plaintext highlighter-rouge">settings.yml</code> file.</p>
-
-<h3 id="posts">Posts</h3>
-
-<p>You will find example posts in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit any post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention of <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.md</code> and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Lagrange.</p>
-
-<h3 id="layouts">Layouts</h3>
-
-<p>There are two main layout options that are included with Lagrange: post and page. Layouts are specified through the <a href="https://jekyllrb.com/docs/frontmatter/">YAML front block matter</a>. Any file that contains a YAML front block matter will be processed by Jekyll. For example:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: post
-title: "Example Post"
----
-</code></pre></div></div>
-
-<p>Examples of what posts looks like can be found in the <code class="language-plaintext highlighter-rouge">_posts</code> directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.</p>
-
-<p>Pages are essentially the post layout without any of the extra features of the posts layout. An example of what pages look like can be found at the <a href="https://lenpaul.github.io/Lagrange/menu/about.html">About</a> and <a href="https://lenpaul.github.io/Lagrange/menu/contact.html">Contacts</a>.</p>
-
-<p>In addition to the two main layout options above, there are also custom layouts that have been created for the <a href="https://lenpaul.github.io/Lagrange/">home page</a> and the <a href="https://lenpaul.github.io/Lagrange/menu/writing.html">archives page</a>. These are simply just page layouts with some <a href="https://shopify.github.io/liquid/">Liquid template code</a>. Check out the <code class="language-plaintext highlighter-rouge">index.html</code> file in the root directory for what the code looks like.</p>
-
-<h3 id="yaml-front-block-matter">YAML Front Block Matter</h3>
-
-<p>The recommended YAML front block is:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout:
-title:
-author:
-categories:
-tags: []
-image:
----
-</code></pre></div></div>
-
-<p><code class="language-plaintext highlighter-rouge">layout</code> specifies which layout to use, <code class="language-plaintext highlighter-rouge">title</code> is the page or post title, <code class="language-plaintext highlighter-rouge">categories</code> can be used to better organize your posts, <code class="language-plaintext highlighter-rouge">tags</code> are used when generating related posts based on the topic of the post, and <code class="language-plaintext highlighter-rouge">image</code> specifies which images to use. Have a look at some posts in the <code class="language-plaintext highlighter-rouge">_posts</code> directory to see how these variables are set.</p>
 
 <h2 id="features">Features</h2>
 
