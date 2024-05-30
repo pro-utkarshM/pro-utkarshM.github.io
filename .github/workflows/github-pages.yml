@@ -1,24 +1,66 @@
-name: Deploy to Github Pages 
+# name: Deploy to Github Pages 
+
+# on:
+#   push:
+#     branches:
+#       - main
+#   schedule:
+#       - cron:  '0 0 * * *'
+
+# jobs:
+#   github-pages:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: actions/cache@v2
+#         with:
+#           path: vendor/bundle
+#           key: ${{ runner.os }}-gems-v2-${{ hashFiles('**/Gemfile') }}
+#           restore-keys: |
+#             ${{ runner.os }}-gems-v2
+#       - uses: helaili/jekyll-action@v2
+#         with:
+#           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+#           target_branch: gh-pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - main
   schedule:
-      - cron:  '0 0 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+          bundler-cache: true
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gems-v2-${{ hashFiles('**/Gemfile') }}
+          key: ${{ runner.os }}-gems-v2-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-v2
-      - uses: helaili/jekyll-action@v2
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build the site
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+          github_token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+          publish_dir: ./_site
           target_branch: gh-pages
