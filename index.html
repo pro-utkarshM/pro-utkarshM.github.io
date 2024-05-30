@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Maurya | Linktree</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="avatar.png" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="favicon.png" target="_blank">
+            <img src="favicon.png" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          Web/App Dev? Nah, I Speak Binary!
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      Utkarsh Maurya
+    </div>
+
+    <div id="links">
+      <a class="link" href="https://leetcode.com/pro-utkarshM/" target="_blank">
+        <i class="cib-leetcode"></i> Leetcode
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/utkarsh-maurya-connect/" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+      </a>
+      <a class="link" href="https://github.com/pro-utkarshM" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
+      <a class="link" href="https://pro-utkarshm.github.io/" target="_blank">
+        <i class="fa fa-briefcase">&nbsp;</i>Portfolio Website
+      </a>
+      <a class="link" href="https://utkarshs-terminal.netlify.app/" target="_blank">
+        <i class="fa fa-briefcase">&nbsp;</i>Terminal based Portfolio-Website
+      </a>
+      <a class="link" href="https://medium.com/@sankalp.1519" target="_blank">
+        <i class="fab fa-medium">&nbsp;</i>Medium
+      </a>
+      <a class="link" href="https://www.instagram.com/utkarsh_maurya17/" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="https://twitter.com/Utkarsh70354118" target="_blank">
+        <i class="fab fa-twitter">&nbsp;</i>Twitter
+      </a>
+      <a class="link" href="https://drive.google.com/file/d/1qYaH1mwAPbUjQ5QlWkCOtm_39seU1QUN/view?usp=sharing" target="_blank">
+        <i class="fa fa-file" style="color: #ffffff;"></i> Resume
+      </a>
+    </div>
+
+    <div id="hashtag">
+      #Keep Building...
+    </div>
+
+    <script>
+
+      const stars1 = []
+      const stars2 = []
+      const stars3 = []
+
+      const numberOfStars1 = '1000'
+      const numberOfStars2 = '600'
+      const numberOfStars3 = '100'
+
+
+      for (let i = 0; i < numberOfStars1; i++) {
+        const pos1 = (Math.floor(Math.random() * 5200))
+        const pos2 = (Math.floor(Math.random() * 5200))
+        stars1.push(`${pos1}px ${pos2}px #fff`)
+      }
+
+      for (let i = 0; i < numberOfStars2; i++) {
+        const pos1 = (Math.floor(Math.random() * 5200))
+        const pos2 = (Math.floor(Math.random() * 5200))
+        stars2.push(`${pos1}px ${pos2}px #fff`)
+      }
+
+      for (let i = 0; i < numberOfStars3; i++) {
+        const pos1 = (Math.floor(Math.random() * 5200))
+        const pos2 = (Math.floor(Math.random() * 5200))
+        stars3.push(`${pos1}px ${pos2}px #fff`)
+      }
+
+      const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
+
+      addCSS(`#stars1{ box-shadow:${stars1}}`)
+      addCSS(`#stars1:after{ box-shadow:${stars1}}`)
+
+      addCSS(`#stars2{ box-shadow:${stars2}}`)
+      addCSS(`#stars2:after{ box-shadow:${stars2}}`)
+
+      addCSS(`#stars3{ box-shadow:${stars3}}`)
+      addCSS(`#stars3:after{ box-shadow:${stars3}}`)
+
+    </script>
+
+
+  
+  </body>
+</html>
