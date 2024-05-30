@@ -1,0 +1,10 @@
+{
+  "name": "Terminal Portfolio by Utkarsh",
+  "short_name": "Utkarsh term",
+  "description": "Utkarsh Maurya terminal portfolio website coded with ReactJS.",
+  "start_url": "/",
+  
+  "theme_color": "#1d2a35",
+  "background_color": "#1d2a35",
+  "display": "standalone"
+}
