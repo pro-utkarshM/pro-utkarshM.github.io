@@ -30,3 +30,16 @@ primitives, etc.
 and user space applications usually never make a system
 call directly but rather use the corresponding C library
 function
+
+## Pseudo Filesystems
+▶ Linux makes system and kernel information available in user space through
+pseudo filesystems, sometimes also called virtual filesystems
+▶ Pseudo filesystems allow applications to see directories and files that do not exist
+on any real storage: they are created and updated on the fly by the kernel
+▶ The two most important pseudo filesystems are
+• proc, usually mounted on /proc:
+Operating system related information (processes, memory management
+parameters...)
+• sysfs, usually mounted on /sys:
+Representation of the system as a tree of devices connected by buses. Information
+gathered by the kernel frameworks managing these devices.
